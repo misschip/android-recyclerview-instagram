@@ -21,28 +21,14 @@
 
     </LinearLayout>
 
-    <ScrollView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_post"
+        android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
 
-            <!--리니어 레이아웃 버티컬 1-->
-            <include layout="@layout/layout_content"/>
-            <!--리니어 레이아웃 버티컬 2-->
-            <include layout="@layout/layout_content"/>
-            <!--리니어 레이아웃 버티컬 3-->
-            <include layout="@layout/layout_content"/>
-            <!--리니어 레이아웃 버티컬 4-->
-            <include layout="@layout/layout_content"/>
-            <!--리니어 레이아웃 버티컬 5-->
-            <include layout="@layout/layout_content"/>
 
-        </LinearLayout>
-
-    </ScrollView>
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
